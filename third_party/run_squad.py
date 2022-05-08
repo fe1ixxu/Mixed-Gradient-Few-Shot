@@ -54,9 +54,10 @@ from transformers import (
 
 from transformers.data.metrics.squad_metrics import (
   compute_predictions_log_probs,
-  compute_predictions_logits,
   squad_evaluate,
 )
+
+from squad_metrics import compute_predictions_logits
 
 from xlm_roberta import XLMRobertaForQuestionAnswering, XLMRobertaConfig
 

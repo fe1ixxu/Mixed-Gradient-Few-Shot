@@ -4,7 +4,7 @@ This is the repository of the Findings of NAACL 2022 paper "[Por Qué Não Utili
 We modified the code based on the [Xtreme benchmark](https://github.com/google-research/xtreme).
 
 ## Model Card
-We show an example of how we code the stochastic gradient surgery function at `stochastic_gradient surgery_card.py` for easier locating the implementation of the method.
+We show an example of how we code the stochastic gradient surgery function at `sgs_card.py` for easier locating the implementation of the method.
 
 ## Prerequisites
 The first step is to build the virtual environment.

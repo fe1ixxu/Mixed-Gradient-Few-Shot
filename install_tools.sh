@@ -32,11 +32,13 @@ cd $LIB
 
 pip install seqeval
 pip install tensorboardx
+pip install gdown
 
 # install XLM tokenizer
 pip install sacremoses
 pip install pythainlp
 pip install jieba
+
 
 # git clone https://github.com/neubig/kytea.git && cd kytea
 # autoreconf -i

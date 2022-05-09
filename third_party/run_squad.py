@@ -122,7 +122,7 @@ def SGS_backward(args, loss, model, optimizer, oracle_datasets):
     oracle_lang = random.choice(oracle_langs)
     length = len(oracle_datasets[oracle_lang])
     random_ind = torch.randint(0, length, (1,)).item()
-    logger.info("*****, {}, {}, {}".format(oracle_lang, random_ind, length))
+    # logger.info("*****, {}, {}, {}".format(oracle_lang, random_ind, length))
     oracle_batch = tuple(t.to(args.device) for t in oracle_datasets[oracle_lang][random_ind] if t is not None)
 
     inputs = {

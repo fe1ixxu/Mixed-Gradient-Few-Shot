@@ -40,7 +40,7 @@ For example, we run a 5-shot learning by fine-tuning xlm-roberta-large on the NE
 bash scripts/train.sh xlm-roberta-large panx 1 5 0
 ```
 
-Note that our codebase only support stochastic gradient surgery for 4 tasks presented in the paper, i.e. `panx`, `udpos`, `xnli`, `tydiqa`. 
+Note that our codebase only support stochastic gradient surgery for 4 tasks presented in the paper, i.e. `panx`, `udpos`, `xnli`, `tydiqa`. The 5 seeds used in the paper are 1,2,3,4,5. 
 
 ## Results
 You can find your results on the test sets for all target languages in the `test_results.txt` file. The reader can find them under `outputs` folder. For example, they are located at:
